@@ -32,6 +32,6 @@ To check the other year, set `BACK = 1` in cell 1 and run again.
 
 - **Context labels were assigned by Claude (an AI)**. They agree with a simple keyword rule on 83% of rows. They are embedded in the notebook (`LABELS_B64`) and can be read, changed and re-run.
 - Sentences that are biographies of named executives are dropped at extraction (data minimisation).
-- Data source: public filings on SEC EDGAR. Access: declared User-Agent, about 4 requests per second. SEC fair-access policy read on: **[add URL and date]**.
+- Data source: public filings on SEC EDGAR. Access: declared User-Agent, about 4 requests per second.
 - Co-listing of two suppliers is not evidence that they fail together; the recommendation is a watchlist and stress-test candidate, not a prediction.
 - Six filers (MSFT, GOOGL, AMZN, META, DELL, MPWR) are not pinned to a specific filing; they name no listed supplier in the pinned data, and `SOURCE = "live"` fetches their latest 10-K.
