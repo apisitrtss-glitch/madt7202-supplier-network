@@ -26,9 +26,7 @@ To check the other year, set `BACK = 1` in cell 1 and run again.
 | File | Purpose |
 |---|---|
 | `MADT7202_supplier_network.ipynb` | The analysis |
-| `access_log.csv` | Log of the requests made to SEC EDGAR in my live run (optional evidence) |
-| `core_pair_check_filled.csv` | Hand check of the evidence behind the recommended pair (if completed) |
-| `precision_check_filled.csv` | Optional hand check of a random sample of labels (if completed) |
+
 
 ## Things to know
 
